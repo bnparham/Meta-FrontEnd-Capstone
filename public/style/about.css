@@ -4,29 +4,41 @@
 #about-section #first-side{
     display: flex;
     flex-direction: column;
+    background-color: rgb(238, 153, 114);
+    border-bottom-left-radius: 20px;
 }
 #about-section #first-side{
-    padding: 20px;
-}
-#about-section #first-side #title, #about-section #first-side #city{
-    font-size: "Markazi Text";
+    padding: 0;
 }
 #about-section #first-side #title{
     font-size: 64px;
+    background-color: #fff;
+    margin: 0;
+    padding: 15px 0;
 }
 #about-section #first-side #city{
     font-size: 40px;
+    background-color: #fff;
+    margin: 0;
+    padding: 15px 0;
+
 }
 
 #about-section #first-side #about-desc{
     padding-top: 30px;
-    font-family: Karla;
+    padding-left: 10px;
     font-weight: bold;
     font-size: 20px;
     width: 370px;
 }
 
+#about-section #second-side{
+    padding: 0;
+    border-top-right-radius: 20px;
+}
 #about-section #second-side img{
     height: 100%;
     width: 100%;
+    border-top-right-radius: 20px;
+
 }

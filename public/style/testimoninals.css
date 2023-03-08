@@ -1,3 +1,6 @@
+#testimoninals{
+
+}
 #testimoninals-header{
     padding: 30px;
     text-align: center;
@@ -5,6 +8,8 @@
 
 #testimoninals article{
     padding: 10px;
+    background-color: rgb(251, 218, 187);
+    border-radius: 10px;
 }
 
 #testimoninals article h5{
@@ -32,6 +37,12 @@
 
 #testimoninals article .article-desc{
     padding: 10px 0;
+}
+
+@media (max-width : 768px){
+    #testimoninals article{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:575px) {

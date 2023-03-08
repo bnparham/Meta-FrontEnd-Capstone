@@ -3,7 +3,7 @@ const BottomNavigation = () => {
     return(
         <section id="bottomNavigation-section" className="container-md">
             <div className="row">
-                <div className="part col-md-3">
+                <div className="part img-part col-md-3">
                     <img src={img} alt="..."/>
                 </div>
                 <div className="part col-md-3">

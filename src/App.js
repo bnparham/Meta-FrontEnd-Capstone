@@ -14,9 +14,6 @@ const App = () => {
       <Testimoninals/>
       <About/>
       <BottomNavigation/>
-      <div style={{height:"300px"}}>
-        
-      </div>
     </>
       
   )

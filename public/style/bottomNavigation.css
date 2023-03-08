@@ -1,18 +1,26 @@
 #bottomNavigation-section{
-    margin-top: 50px;
+    margin-top: 5px;
+    background-color: rgb(51,51,51); 
 }
 #bottomNavigation-section .part{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 
 #bottomNavigation-section .part h4{
     font-weight: bolder;
+    color:#fff
 }
 #bottomNavigation-section .part img{
     height: 400px;
 }
+
+#bottomNavigation-section .img-part{
+    padding: 0;
+}
+
 #bottomNavigation-section .part ul{
     padding: 0;
 }
@@ -21,6 +29,6 @@
 }
 #bottomNavigation-section .part ul li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-weight: 600;
 }
