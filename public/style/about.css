@@ -1,0 +1,32 @@
+#about-section{
+    margin-top: 20px;
+}
+#about-section #first-side{
+    display: flex;
+    flex-direction: column;
+}
+#about-section #first-side{
+    padding: 20px;
+}
+#about-section #first-side #title, #about-section #first-side #city{
+    font-size: "Markazi Text";
+}
+#about-section #first-side #title{
+    font-size: 64px;
+}
+#about-section #first-side #city{
+    font-size: 40px;
+}
+
+#about-section #first-side #about-desc{
+    padding-top: 30px;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 20px;
+    width: 370px;
+}
+
+#about-section #second-side img{
+    height: 100%;
+    width: 100%;
+}
