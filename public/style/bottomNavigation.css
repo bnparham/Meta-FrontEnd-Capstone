@@ -1,0 +1,26 @@
+#bottomNavigation-section{
+    margin-top: 50px;
+}
+#bottomNavigation-section .part{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#bottomNavigation-section .part h4{
+    font-weight: bolder;
+}
+#bottomNavigation-section .part img{
+    height: 400px;
+}
+#bottomNavigation-section .part ul{
+    padding: 0;
+}
+#bottomNavigation-section .part ul li{
+    padding: 10px 0;
+}
+#bottomNavigation-section .part ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
