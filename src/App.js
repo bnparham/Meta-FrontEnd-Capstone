@@ -8,6 +8,9 @@ const App = () => {
       <Navigation/>
       <Hero/>
       <Highlight/>
+      <div style={{height:"300px"}}>
+        
+      </div>
     </>
       
   )

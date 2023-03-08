@@ -1,0 +1,57 @@
+#highlight-main{
+    margin-top: 150px;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+#highlight-menus .card{
+    background-color: rgb(237, 239, 238);
+}
+
+#highlight-menus .card-text{
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+#special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+#online-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+#online-menu button{
+    border-radius: 10px;
+    background-color: rgb(244, 206, 20);
+}
+
+.card-body .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-body .highlight-price{
+    color: #EE9972
+}
+
+
+
+.order-secton{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.basket-icon{
+    width: 26px !important ;
+    height:24px !important;
+    margin-left: 10px;
+}
+.order-secton a{
+    text-decoration: none;
+    color: #000;
+}
