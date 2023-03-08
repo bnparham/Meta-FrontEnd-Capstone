@@ -2,7 +2,7 @@ import logo from '../Assets/icons_assets/Logo.svg'
 
 const Navigation = () => {
     return(
-        <nav>
+        <nav className='container-md'>
             <div className='row'>
                 <div id='logo' 
                 className='col-lg-4 col-md-12
