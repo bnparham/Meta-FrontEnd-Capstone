@@ -1,6 +1,6 @@
 import pic1 from "../Assets/icons_assets/greek salad.jpg"
-import pic2 from "../Assets/icons_assets/bruchetta.svg"
-import pic3 from "../Assets/icons_assets/lemon dessert.jpg"
+// import pic2 from "../Assets/icons_assets/bruchetta.svg"
+// import pic3 from "../Assets/icons_assets/lemon dessert.jpg"
 
 import basket from "../Assets/icons_assets/Basket.svg"
 
@@ -37,7 +37,7 @@ const Highlight = () => {
                 {/* --- article --- */}
                 <div class="col">
                     <div class="card h-100">
-                        <img src={pic2} class="card-img-top" alt="..."/>
+                        <img src={pic1} class="card-img-top" alt="..."/>
                         <div class="card-body">
                         <div className="header">
                             <h5>Bruchetta</h5>
@@ -55,7 +55,7 @@ const Highlight = () => {
                 {/* --- article --- */}
                 <div class="col">
                     <div class="card h-100">
-                        <img src={pic2} class="card-img-top" alt="..."/>
+                        <img src={pic1} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <div className="header">
                                 <h5>Lemon Dessert</h5>
