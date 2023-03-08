@@ -1,13 +1,14 @@
 import Hero from "./components/hero";
 import Navigation from "./components/navigation";
-
+import Highlight from './components/highlight';
 
 const App = () => {
   return(
-    <div className="">
+    <>
       <Navigation/>
       <Hero/>
-    </div>
+      <Highlight/>
+    </>
       
   )
 }

@@ -2,7 +2,7 @@ import ResturantFood from '../Assets/icons_assets/restauranfood.jpg'
 
 const Hero = () => {
     return(
-        <div id='c-hero-c' className='container-md'>
+        <header id='c-hero-c' className='container-md'>
             <div id='hero-container' className='row'>
                 <div id='hero-text' className='col-md-7 col-sm-12'>
                     <h2 id='title'>Little Lemon</h2>
@@ -16,7 +16,7 @@ const Hero = () => {
                     <img alt="ResturantFood" src={ResturantFood}/>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 export default Hero
