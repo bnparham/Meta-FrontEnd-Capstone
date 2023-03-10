@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import ResturantFood from '../Assets/icons_assets/restauranfood.jpg'
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
                     <h4 id='city'>chicago</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <button id='hero-btn' className='w-50'>
-                        Reserve a Table
+                        <Link style={{textDecorationLine:'none',color:"#000"}} to={"/reserve"}>Reserve a Table</Link>
                     </button>
                 </div>
                 <div id='img-container' className='col-md-5 col-sm-12'>
