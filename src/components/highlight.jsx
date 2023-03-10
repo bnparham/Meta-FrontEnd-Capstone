@@ -29,7 +29,7 @@ const Highlight = () => {
                         </div>
                         <div className="order-secton">
                             <h5><a href="...">Order a delivery</a></h5>
-                            <img className="basket-icon" src={basket}/>
+                            <img className="basket-icon" src={basket} alt="..."/>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Highlight = () => {
                         </div>
                         <div className="order-secton">
                             <h5><a href="...">Order a delivery</a></h5>
-                            <img className="basket-icon" src={basket}/>
+                            <img className="basket-icon" src={basket} alt="..." />
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Highlight = () => {
                         </div>
                         <div className="order-secton">
                             <h5><a href="...">Order a delivery</a></h5>
-                            <img className="basket-icon" src={basket}/>
+                            <img className="basket-icon" src={basket} alt="..."/>
                         </div>
                     </div>
                 </div>

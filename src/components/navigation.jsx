@@ -1,4 +1,6 @@
 import logo from '../Assets/icons_assets/Logo.svg'
+import { NavLink } from 'react-router-dom'
+
 
 const Navigation = () => {
     return(
@@ -16,12 +18,16 @@ const Navigation = () => {
                         d-flex justify-content-lg-start
                         justify-content-md-center
                         '>
-                        <li><a className='' href="link">Home</a></li>
-                        <li><a className='' href="link">About</a></li>
-                        <li><a className='' href="link">Menu</a></li>
-                        <li><a className='' href="link">Reservation</a></li>
-                        <li><a className='' href="link">Order Online</a></li>
-                        <li><a className='' href="link">Login</a></li>
+                        <li>
+                            <NavLink to={"/"}>Home</NavLink>
+                        </li>
+                        <li><a href="link">About</a></li>
+                        <li><a href="link">Menu</a></li>
+                        <li>
+                            <NavLink to={"/reserve"}>Reservation</NavLink>
+                        </li>
+                        <li><a href="link">Order Online</a></li>
+                        <li><a href="link">Login</a></li>
                     </ul>
                 </div>
             </div>
