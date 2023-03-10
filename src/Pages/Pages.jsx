@@ -1,7 +1,8 @@
-import { Routes,Route } from "react-router-dom"
+import { Routes,Route, Navigate,useNavigate} from "react-router-dom"
 import Home from "./Home"
 import BookingPage from './BookingPage';
-import { useState } from "react";
+import { useState} from "react";
+import ConfirmedBooking from "../components/Reservation/ConfirmedBooking ";
 
 
 // get Date API
@@ -29,6 +30,12 @@ const fetchAPI = function(date) {
 };
 // get Date API
 
+// submit API
+const submitAPI = function(formData) {
+    return true;
+}
+// submit API
+
 const Pages = () => {
 
     const updateTimes = (id) => {
@@ -52,11 +59,24 @@ const Pages = () => {
             )
         }
         const [availableTimes ,setAvailableTimes] = useState(initializeTimes)
+        const [showConfirmComponent, setshowConfirmComponent] = useState(false);
+        const navigate = useNavigate()
         
+        const submitForm = (formData) => {
+            const checkForm = submitAPI(formData)
+            if(checkForm){
+                setshowConfirmComponent(true)
+                return(
+                    navigate("/confirmReservation",{state:formData})
+                )
+            }
+        }
+
     return(
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/reserve" element={<BookingPage availableTimes={availableTimes} updateTimes={updateTimes} />}/>
+            <Route path="/reserve" element={<BookingPage availableTimes={availableTimes} updateTimes={updateTimes} submitForm={submitForm} />} />
+            <Route path="/confirmReservation" element={showConfirmComponent ? <ConfirmedBooking /> : <Navigate to="/" />} />
         </Routes>
     )
 }

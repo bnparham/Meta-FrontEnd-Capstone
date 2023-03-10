@@ -4,7 +4,7 @@ import reservePhoto from "../../Assets/icons_assets/Mario and Adrian A.jpg"
 
 const BookinghtmlForm = (props) => {
 
-    const [resdate, setResdate] = useState("");
+    const [resdate, setResdate] = useState(new Date().toDateString());
     const [restime, setRestime] = useState("17:00");
     const [guests, setGuests] = useState("1");
     const [occasion, setOccasion] = useState("Birthday");
@@ -21,11 +21,19 @@ const BookinghtmlForm = (props) => {
 
     const submitHandeler = (e) => {
         e.preventDefault();
-        console.log(resdate);
-        console.log(restime);
-        console.log(guests);
-        console.log(occasion);
         props.updateTimes(timeId.current);
+        props.submitForm(
+            {
+                resDate : resdate,
+                restime : restime,
+                guests : guests,
+                occasion : occasion
+            }
+        )   
+        // console.log(resdate);
+        // console.log(restime);
+        // console.log(guests);
+        // console.log(occasion);
     }
 
 
