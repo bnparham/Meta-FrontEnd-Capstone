@@ -89,6 +89,13 @@ const BookinghtmlForm = (props) => {
                                     type="number"
                                     className="form-control"
                                 />
+                                <ErrorMessage name="guests"
+                                    render={(msg)=>
+                                    <div 
+                                    style={{color:"red",textAlign:"right"}}>
+                                    {msg}</div>
+                                    }
+                                />
                             </div>
                             <div className="col-md-12">
                                 <label class="form-label" htmlFor="occasion">Occasion</label>
